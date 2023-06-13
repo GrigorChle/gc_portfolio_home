@@ -1,0 +1,18 @@
+#Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: cornflowerblue;
+}
+#Navbar img {
+    height: 40px;
+    width: 40px;
+}
+
+#Navbar li {
+    display: inline;
+    padding: 8px;
+}
+#Navbar li:hover {
+    background-color: grey;
+}
