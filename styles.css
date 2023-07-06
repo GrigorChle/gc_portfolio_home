@@ -1,8 +1,16 @@
+body {
+    background-color: #e6e6e6;
+    margin: 5vh 20vw;
+}
+
 #Navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: cornflowerblue;
+    background-color: e6e6e6;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 #Navbar img {
     height: 40px;
