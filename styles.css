@@ -1,5 +1,10 @@
+:root {
+    font-family: 'Lekton', sans-serif;
+}
+
 body {
     background-color: #e6e6e6;
+    color: black;
     margin: 5vh 20vw;
 }
 
