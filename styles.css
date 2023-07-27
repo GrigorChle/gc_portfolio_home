@@ -1,54 +1,28 @@
-:root {
-    font-family: 'Lekton', sans-serif;
-    font-size: 16px;
-}
-
 body {
+    font-family: 'Lekton', sans-serif;
+    font-size: 32px;
     background-color: #ffffff;
     color: black;
     margin: 5vh 20vw;
 }
 
-#Navbar {
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Paragraph {
+    margin-bottom: 3rem;
+}
+
+ul {
+    padding: 0%;
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    background-color: e6e6e6;
-    border: 1px solid black;
-    flex-wrap: wrap;
-    overflow: hidden;
-    margin-bottom: 1rem;
-}
-#Navbar img {
-    height: 40px;
-    width: 40px;
+    list-style: none;
 }
 
-#Navbar li {
-    display: inline;
-    padding: 8px;
-}
-
-#Navbar li:hover {
-    background-color: grey;
-}
-
-#Navbar a {
-    text-decoration: none;
-    color: black
-}
-
-.active {
-    background-color: grey;
-}
-
-#Content {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.Welcome {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+li {
+    margin-right: 1rem;
 }
